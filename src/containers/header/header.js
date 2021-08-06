@@ -32,7 +32,7 @@ export default class Header extends Component {
             src="https://osten.vercel.app/images/osten.svg"
             alt=""
           />
-          <h3 onClick={this.showNav} className="bars">
+          <h3 onClick={this.showNav} className="bars btnBar">
             <FontAwesomeIcon icon={faBars} />
           </h3>
         </div>
