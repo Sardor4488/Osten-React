@@ -10,7 +10,7 @@ const data = [
     {to: "/", title: "ГЛАВНАЯ"},
     {to: "/abaut", title: "О НАС"},
     {to: "/production", title: "ПРОИЗВОДСТВО "},
-    {to: "/services", title: "УСЛУГИ"},
+    {to: "/servises", title: "УСЛУГИ"},
     // pages 
 ]
 

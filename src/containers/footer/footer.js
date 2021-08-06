@@ -7,6 +7,7 @@ import {
   faInstagram,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 export default class Footer extends Component {
   render() {
     return (
@@ -28,9 +29,9 @@ export default class Footer extends Component {
             </div>
             <div className="col-lg-4 py-5">
               <h3>ПОСЛЕДНИЕ НОВОСТИ</h3>
-              <h5  className="py-2" ><a className="footerLinks" href="">Построен новый лифт</a></h5>
-              <h5 className="py-2" ><a className="footerLinks" href="">РЕМОНТ И ОБСЛУЖИВАНИЕ ЭСКАЛАТОРОВ</a></h5>
-              <h5 className=""><a className="footerLinks" href="">ДИСПЕТЧЕРИЗАЦИЯ</a></h5>
+              <h5  className="py-2" ><Link to="/abaut" className="footerLinks" href="">Построен новый лифт</Link></h5>
+              <h5 className="py-2" ><Link to="/production" className="footerLinks" href="">РЕМОНТ И ОБСЛУЖИВАНИЕ ЭСКАЛАТОРОВ</Link></h5>
+              <h5 className=""><Link to="/abaut" className="footerLinks" href="">ДИСПЕТЧЕРИЗАЦИЯ</Link></h5>
             </div>
             <div className="col-lg-4 py-5">
               <h3>КОНТАКТЫ</h3>

@@ -2,7 +2,7 @@ import Home from "./containers/home/home";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Abaut from "./pages/abaut";
-import Servises from "./pages/servises/servises";
+import Servises from "./pages/servises";
 import Header from "./containers/header";
 import Footer from "./containers/footer/footer";
 import Product from "./pages/production/product";
@@ -10,10 +10,9 @@ import Product from "./pages/production/product";
 const data = [
   { path: "/", component: <Home />, exact: true },
   { path: "/abaut", component: <Abaut /> },
-  { path: "/servises", component: <Servises /> },
   { path: "/production", component: <Product /> },
   { path: "/servises", component: <Servises /> },
-];
+ ];
 
 function App() {
   return (
@@ -27,6 +26,7 @@ function App() {
         ))}
       </Switch>
       <Footer />
+       
     </div>
   );
 }
