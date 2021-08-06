@@ -1,0 +1,30 @@
+.results{
+    background-image: url(./photo_2021-07-28_14-24-52.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     padding: 20px;
+    position: relative;
+}
+.blurResult{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+      position: absolute;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+ 
+.zIndexResult{
+    z-index: 5 !important;
+}
+/* .hrr{
+    width: 400px;
+    margin: auto;
+    color: #fff;
+  
+     }
+     .resultHr{
+           border-bottom: 2px solid rgb(255, 255, 255);
+           background-color: #fff;
+     } */

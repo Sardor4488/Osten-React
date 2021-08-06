@@ -1,0 +1,16 @@
+.icons{
+    border-radius: 50%;
+    color:yellow;
+    background-color: #fff;
+    width: 88px;
+    margin: auto;
+    padding: 20px;
+
+}
+.icons:hover{
+    color: rgb(1, 0, 29);
+}
+.back{
+    background-color: #f5f5f5;
+     padding-bottom: 30px;
+}

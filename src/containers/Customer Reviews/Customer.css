@@ -1,0 +1,13 @@
+.customer{
+    background-image: url(./photo_2021-07-28_14-24-53.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: #fff !important;
+    padding-bottom: 170px !important;
+}
+.costomerBlur{
+    z-index: 5;
+}
+ 

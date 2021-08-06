@@ -1,0 +1,43 @@
+.home{
+    height: 100vh;
+    background-image: url(./photo_2021-07-28_14-24-53.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+ }
+ button{
+     box-shadow: none !important;
+     color: #fff !important;
+   }
+ 
+  .home::before{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(9, 21, 45, 0.7) 0%, rgba(9, 21, 45, 0.25) 35%, rgba(0, 212, 255, 0) 100%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+     
+  }
+ /* .blur{
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     padding: 0%;
+     margin: 0;
+      position: absolute;
+     background-color: rgba(0, 0, 0, 0.308);
+ } */
+ .textcolor{
+     z-index: 2;
+ }
+ .containHome{
+     color: #fff;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     height: 100%;
+ }

@@ -1,0 +1,116 @@
+.logo{
+    height: 35px;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 15px;
+
+}
+.bars{
+    cursor: pointer;
+    display: block;
+}
+.ulShow{
+    display: flex;
+    padding: 0 10px  ;
+
+}
+ul li{
+     list-style: none;
+    padding: 0 10px;
+}
+.containerHeader{
+    width: 1200px;
+    margin: auto;
+}
+.btnBar{
+    padding: 7px 10px !important;
+    border: 0;
+    background-color: #fff;
+    font-size: 18px;
+ }
+  .btnBar:hover{
+      color: rgb(25, 0, 255);
+  }   
+ 
+a{
+    text-decoration: none !important;
+}
+@media screen and (max-width:600px) {
+    .logotip{
+        width: 100px;
+    }
+}
+.nav__menu {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    width: 20%;
+height: 100vh;
+    background-color: white;
+        transition: 0.5s;
+        box-shadow: rgb(0 0 0 / 13%) -10px 80px 20px 0px;
+  }
+  .nav__start {
+    right: 0;
+    transition: 0.5s;
+  }
+  
+@media screen and (max-width:768px) {
+    .nav__menu {
+        width: 50%;
+        top:60px
+    }
+ .btnHeader{
+     display: none !important;
+ }
+ 
+ .btnBar{
+     display:  block !important   ;
+ }
+ .header_menumdhide{
+    display: none !important;
+
+ }
+
+}
+.faTimes{
+    text-align:  center !important;
+   
+}
+.times{
+    padding: 7px 10px !important;
+    border: 0;
+    background-color: #fff;
+    font-size: 18px;
+}
+.times:hover{
+    color: rgb(25, 0, 255);
+}
+.mdLinks{
+    padding: 10px;
+    display: grid !important;
+     
+}
+.links{
+    color: black;
+    width: 100%;
+}
+.links:hover{
+    color: yellow;
+}
+.showMdMenu{
+    width: 200px !important;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    font-size: 19px;
+    display: none;
+    height: 100vh;
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    right: 0px;
+}
