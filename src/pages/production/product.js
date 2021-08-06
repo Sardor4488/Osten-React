@@ -8,6 +8,11 @@ import Elavator from "../../containers/Elevator cabins/elavator";
   render() {
     return (
       <div className='pt-5'>
+          <div  className="abaut ">
+       <div className="container">
+          <h1 className="fw-bold">Производство</h1>
+         </div>
+       </div>
         <h1 className="text-center   pt-5 ">Производство</h1>
         <div className=" hrr bg-dark ">
           {" "}
