@@ -63,6 +63,11 @@ a {
     width: 50%;
     top: 60px;
   }
+  .containerHeader {
+    width: 100%;
+    padding: 0  ;
+    margin: auto;
+  }
   .btnHeader {
     display: none !important;
   }
