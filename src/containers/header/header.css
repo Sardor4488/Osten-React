@@ -64,7 +64,7 @@ a {
     top: 60px;
   }
   .swiper-pagination-bullet{
-      display: none;
+      display: none !important;
   }
   .containerHeader {
     width: 100%;
