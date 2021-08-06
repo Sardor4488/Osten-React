@@ -24,13 +24,13 @@ export default class Elavator extends Component {
             className="mySwiper"
           >
             
-             <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /> <h5 className="ostenImg my-4">OSTEN13</h5></SwiperSlide>
-            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><h5 className="ostenImg my-4">OSTEN13</h5></SwiperSlide>
-            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><h5 className="ostenImg my-4">OSTEN13</h5></SwiperSlide>
-            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><h5 className="ostenImg my-4">OSTEN13</h5></SwiperSlide>
-            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><h5 className="ostenImg my-4">OSTEN13</h5></SwiperSlide>
-            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><h5 className="ostenImg my-4">OSTEN13</h5></SwiperSlide>
-            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><h5 className="ostenImg my-4">OSTEN13</h5></SwiperSlide>
+             <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /> <p className="ostenImg fw-bold my-4">OSTEN13</p></SwiperSlide>
+            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><p className="ostenImg fw-bold my-4">OSTEN13</p></SwiperSlide>
+            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><p className="ostenImg fw-bold my-4">OSTEN13</p></SwiperSlide>
+            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><p className="ostenImg fw-bold my-4">OSTEN13</p></SwiperSlide>
+            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><p className="ostenImg fw-bold my-4">OSTEN13</p></SwiperSlide>
+            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><p className="ostenImg fw-bold my-4">OSTEN13</p></SwiperSlide>
+            <SwiperSlide><img className="h-100 w-100" src= "https://orzu-tehnopark.s3.amazonaws.com/oston/images/2020/10/16/OSTEN-L2.jpg" alt="" /><p className="ostenImg fw-bold my-4">OSTEN13</p></SwiperSlide>
 
           </Swiper>
         </div>
