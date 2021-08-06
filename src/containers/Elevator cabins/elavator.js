@@ -10,7 +10,7 @@ SwiperCore.use([Pagination]);
 export default class Elavator extends Component {
   render() {
     return (
-      <div className="">
+      <div className="Evalator">
         <div className="py-5">
           <h1 className="text-center   pt-5 ">Кабины лифтов</h1>
           <div className="hr"></div>
@@ -19,6 +19,7 @@ export default class Elavator extends Component {
             spaceBetween={30}
             pagination={{
               clickable: true,
+              
             }}
             className="mySwiper"
           >

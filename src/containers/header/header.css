@@ -63,6 +63,9 @@ a {
     width: 50%;
     top: 60px;
   }
+  .swiper-pagination-bullet{
+      display: none;
+  }
   .containerHeader {
     width: 100%;
     padding: 0  ;
